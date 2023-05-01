@@ -59,3 +59,13 @@ def mashup_list(source_list):
         l_result.append(source_list[rnd_num])
         l_index.remove(rnd_num)
     return l_result
+
+# быстрая сортировка списка
+def sort_quick_list(array):
+    if len(array) < 2:
+        return array
+    else:
+        start_value = array[0]
+        less = [i for i in array[1:] if i <= start_value]
+        greater = [i for i in array[1:] if i > start_value]
+    return sort_quick_list(less) + [start_value] + sort_quick_list(greater)
