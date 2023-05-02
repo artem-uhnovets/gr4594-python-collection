@@ -1,6 +1,10 @@
 # КОЛЛЕКЦИЯ МЕТОДОВ И ФУНКЦИЙ **Python**
 
 ## [ОГЛАВЛЕНИЕ](#оглавление)
+
+<details>
+<summary>click to open </summary>
+
 * [Тернарный оператор](#тернарный-оператор)
 * [Моржовый оператор](#моржовый-оператор)
 * [Оператор вывода данных](#оператор-вывода-данных)
@@ -26,6 +30,8 @@
     * [any (iterable)](#anyiterable)
     * [zip (interable1, interable2, interable3, …)](#zipinterable1-interable2-interable3)
     * [enumerate (iterable, start=0)](#enumerateiterable-start0)
+</details>
+
 ___
 ### [Тернарный оператор](#тернарный-оператор)
 ##### [оглавление](#оглавление)
