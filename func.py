@@ -69,3 +69,12 @@ def sort_quick_list(array):
         less = [i for i in array[1:] if i <= start_value]
         greater = [i for i in array[1:] if i > start_value]
     return sort_quick_list(less) + [start_value] + sort_quick_list(greater)
+# через лямбда
+def sort_quick_list_lambda(array):
+    if len(array) < 2:
+        return array
+    else:
+        start_val = array[0]
+        less = list(filter(lambda x: x <= start_val, array[1:]))
+        greater = list(filter(lambda x: x > start_val, array[1:]))
+    return sort_quick_list(less) + [start_val] + sort_quick_list(greater)
